@@ -5,13 +5,13 @@ PackageVersion: 5.0
 InstallerType: msi
 Scope: machine
 ElevationRequirement: elevationRequired
-ProductCode: "{E00C2B97-BE1E-4D67-81B4-1AF9D7FA35F6}"
+ProductCode: "{48E9EF86-61BF-46A4-B681-B3EF53FECC1C}"
 InstallerSwitches: 
   Silent: /quiet /norestart LICENSEAGREEMENT_ACCEPTED=1
   SilentWithProgress: /passive /norestart LICENSEAGREEMENT_ACCEPTED=1
 Installers:
   - Architecture: x64
     InstallerUrl: https://github.com/Audio-Arcade/Audio_Arcade/releases/download/5.0.0/Audio_Arcade.msi
-    InstallerSha256: 4B5A3DBADBCA6FBE00B7223B20E3BDAF4B9D7939D9BC132CB2A9ED80C296A0CF
+    InstallerSha256: 68BC0C2CAAC7BC3F41700E7DFFBDB07EE6CD13EEE011ADF41FDB2CA9B98EA682
 ManifestType: installer
 ManifestVersion: 1.12.0
